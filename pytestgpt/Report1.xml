@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites><testsuite name="pytest" errors="0" failures="1" skipped="0" tests="4" time="17.216" timestamp="2023-03-27T20:34:55.235829" hostname="abhilash"><testcase classname="test_first" name="test_1" time="0.001" /><testcase classname="test_first" name="test_2" time="0.001" /><testcase classname="test_first" name="test_3" time="0.001"><failure message="AssertionError: assert 'selenium' is 'selenium is a great tool for automation'">def test_3():
+        a = "selenium"
+        b = "selenium is a great tool for automation"
+&gt;       assert a is b
+E       AssertionError: assert 'selenium' is 'selenium is a great tool for automation'
+
+test_first.py:20: AssertionError</failure></testcase><testcase classname="test_first" name="test_4" time="16.994" /></testsuite></testsuites>
